@@ -8,16 +8,14 @@
     android:orientation="vertical"
     android:background="#FFFFFF">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:textSize="40dp"
-        android:id="@+id/textview1"
-        android:text="TIC TAC TOE"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"/>
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/home_screen"
+        android:id="@+id/title_icon"
+        />
 
     <EditText
         android:layout_width="match_parent"
@@ -37,10 +35,11 @@
         android:hint="Player 2" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:background="@drawable/rounded_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:paddingLeft="25dp"
         android:paddingRight="25dp"
         android:paddingTop="10dp"

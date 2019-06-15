@@ -8,21 +8,20 @@
     android:background="#ffffff"
     android:orientation="vertical">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:textSize="40dp"
-        android:id="@+id/textview1"
-        android:text="TIC TAC TOE"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"/>
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/home_screen"
+        android:id="@+id/title_icon"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
+        android:layout_gravity="start"
         android:layout_marginTop="5dp"
         android:paddingLeft="20dp"
         android:textSize="15dp"
@@ -33,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
+        android:layout_gravity="start"
         android:layout_marginTop="5dp"
         android:paddingLeft="20dp"
         android:textSize="15dp"
@@ -44,7 +43,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="18dp"
         android:layout_gravity="center_horizontal"
         android:orientation="horizontal">
         <Button
@@ -124,20 +123,6 @@
             android:textSize="30dp"
             />
     </LinearLayout>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/reset"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/rounded_button"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
-        android:text="Reset"
-        android:textAllCaps="false"
-        android:textSize="32dp"
-        android:layout_gravity="center_horizontal"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -148,5 +133,22 @@
         android:id="@+id/textview"
         android:text=""
         android:textColor="@android:color/black"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:textSize="32dp"
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

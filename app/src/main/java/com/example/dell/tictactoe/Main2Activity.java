@@ -21,7 +21,6 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-
         Intent i = getIntent();
         final String s1 = i.getStringExtra("first");
         final String s2 = i.getStringExtra("second");
