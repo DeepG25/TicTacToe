@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Option">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/home_screen"
+        android:id="@+id/title_icon"
+        />
+
+    <ImageView
+        android:id="@+id/play_against_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_below="@id/title_icon"
+        android:padding="7dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/play_against" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play_against_icon"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAllCaps="false"
+        android:text="Human"
+        android:id="@+id/human_btn"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="60dp"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/human_btn"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAllCaps="false"
+        android:text="Computer"
+        android:id="@+id/computer_btn"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="60dp"
+        android:textSize="35dp" />
+
+</RelativeLayout>

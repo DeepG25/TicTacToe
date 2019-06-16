@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".StartActivity">
 
     <ImageView
@@ -39,7 +40,23 @@
         android:background="@drawable/rounded_button"
         android:text="Start"
         android:textSize="30dp"
+        />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@id/start_btn"
+        android:id="@+id/developer_btn"
+        android:text="Developer"
+        android:textSize="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         />
 
 </RelativeLayout>
